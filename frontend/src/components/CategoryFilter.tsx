@@ -12,7 +12,8 @@ function CategoryFilter({
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const url = "https://localhost:5000/api/Book/AllBookCategories";
+        const url =
+          "https://bookstore-a2d9eva0e0ayfac9.eastus-01.azurewebsites.net/api/Book";
         const response = await fetch(url);
         const data = await response.json();
 
