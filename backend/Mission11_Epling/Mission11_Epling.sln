@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission11_Keys", "Mission11_Keys\Mission11_Keys.csproj", "{6509F053-2F02-410E-A9E8-B852159C0649}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission11_Epling", "Mission11_Epling\Mission11_Epling.csproj", "{6509F053-2F02-410E-A9E8-B852159C0649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
