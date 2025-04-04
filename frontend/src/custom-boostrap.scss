@@ -1,0 +1,8 @@
+// Override Bootstrap variables
+$primary: #4caf89;
+$secondary: #bb4f9b;
+$font-family-base: "Arial, sans-serif"; // Change default font
+$btn-border-radius: 0.25rem; // Customize button border radius
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";

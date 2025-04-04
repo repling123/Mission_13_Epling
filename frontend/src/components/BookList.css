@@ -1,0 +1,20 @@
+.card {
+  width: 100%;
+}
+.card-body {
+  position: relative;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 0.5rem;
+}
+.card-info {
+  margin: 2rem 0 3rem 0;
+}
+.card-isbn {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0;
+}

@@ -1,0 +1,51 @@
+@Mission11_Epling_HostAddress = http://localhost:5207
+
+### Get all books
+GET {{Mission11_Epling_HostAddress}}/api/Book/AllBooks?pageSize=5&pageNumber=1&sortBy=asc
+Accept: application/json
+
+###
+
+### Get all book categories
+GET {{Mission11_Epling_HostAddress}}/api/Book/AllBookCategories
+Accept: application/json
+
+###
+
+### Add a new book
+POST {{Mission11_Epling_HostAddress}}/api/Book/Add
+Content-Type: application/json
+
+{
+  "title": "New Book Title",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "isbn": "1234567890",
+  "classification": "Fiction",
+  "category": "Category Name",
+  "pageCount": 300,
+  "price": 20
+}
+
+###
+
+### Edit a book
+PUT {{Mission11_Epling_HostAddress}}/api/Book/Edit/1
+Content-Type: application/json
+
+{
+  "title": "Updated Book Title",
+  "author": "Updated Author Name",
+  "publisher": "Updated Publisher Name",
+  "isbn": "0987654321",
+  "classification": "Non-Fiction",
+  "category": "Updated Category Name",
+  "pageCount": 350,
+  "price": 25
+}
+
+###
+
+### Delete a book
+DELETE {{Mission11_Epling_HostAddress}}/api/Book/Delete/1
+Accept: application/json
